@@ -1,0 +1,38 @@
+{
+    "name": "gcloud-helper",
+    "version": "0.0.1",
+    "description": "A CLI Node.js helper for Google Cloud",
+    "main": "gcloud-helper.js",
+    "author": "Bruno Bernardino <bruno.bernardino@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BrunoBernardino/node-google-cloud-helper"
+    },
+    "scripts": {
+      "start": "node ./gcloud-helper.js"
+    },
+    "bugs": {
+        "url": "https://github.com/BrunoBernardino/node-google-cloud-helper/issues"
+    },
+    "preferGlobal": "true",
+    "bin": {
+        "gcloud-helper" : "gcloud-helper.js"
+    },
+    "keywords": [
+        "google",
+        "compute",
+        "engine",
+        "cloud",
+        "gcloud",
+        "gce",
+        "helper",
+        "cli",
+        "BrunoBernardino"
+    ],
+    "dependencies": {
+      "async": "1.5.x",
+      "gcloud": "0.25.x"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/BrunoBernardino/node-google-cloud-helper"
+}
