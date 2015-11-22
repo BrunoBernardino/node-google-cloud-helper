@@ -2,7 +2,9 @@
 
 The idea of this CLI tool is to basically start, stop and delete Google Compute Engine instances, while automatically mapping the ephemeral IPs in Google Cloud DNS.
 
-I'm using this for remote development.
+Note the instances have to exist, and the domains top map (optional) should be in Google Cloud DNS already.
+
+I'm using this for remote development, and it reduces costs, while enabling me to have a very powerful remote development machine.
 
 ## Installation
 
@@ -25,4 +27,4 @@ Some variables have to be set in the env (`/etc/environment`, `~/.bashrc` or eve
 
 - [ ] Add linter
 - [ ] Add unit tests for commands, arguments, showing help, spying on what's called from gcloud, etc.
-- [ ] Support subdomains on instance start, for Cloud DNS update? ()
+- [ ] Support subdomains on instance start, for Cloud DNS update? (will require actual requests)
